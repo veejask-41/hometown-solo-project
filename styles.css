@@ -1,0 +1,139 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    /* width: 720px; */
+}
+
+img {
+    width: 180px;
+    height: 120px;
+}
+
+#hero {
+    margin: 0;
+    background-image: url("images/batticaloa.jpg");
+    background-size: cover;
+    padding: 120px 0;
+    font-family: 'MuseoModerno', cursive;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 720px;
+    height: 343px; */
+}
+
+#visit{
+    background: #163a41;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+#enjoy {
+    background: #406775;
+    margin: 0;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+#activities {
+    background: #b8d5ec;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Play', sans-serif;
+    padding: 0 15px 30px 15px;
+}
+
+#top-activity {
+    color: black;
+    font-size: 150%;
+}
+
+#list-activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.activity-img {
+    background: #314446;
+    margin: 15px;
+    padding: 15px;
+ 
+    color: white;
+    border-radius: 10px;
+}
+
+.activity-img:hover{
+    /* border: white solid 3px; */
+    box-shadow: 0 0 20px black;
+}
+
+#park-batti, #pasikuda-batti, #lighthouse-batti {
+    border-radius: 10px;
+}
+
+#guide {
+    background: #d9ed92;
+    display: flex;
+    padding: 20px;
+    margin: 50px 80px;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: #1b4332 solid 10px; */
+    border-radius: 10px;
+    box-shadow: 0px 10px 0px #1b4332;
+    /* box-shadow: 0 0 10px black; */
+    /* width: 500px; */
+    /* text-align: center; */
+}
+
+#img-sajeev {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+
+#guide-details {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Autour One', cursive;
+}
+
+#linkedin {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0; */
+    border-radius: 10px;
+    border: white solid
+}
+
+#linkedin-link{
+    color: black;
+}
+
+#name:hover{
+    box-shadow: 0 0 10px black;
+}
