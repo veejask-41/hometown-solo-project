@@ -1,18 +1,7 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     margin: 0;
     text-align: center;
     padding: 0;
-    /* width: 720px; */
 }
 
 img {
@@ -30,8 +19,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 720px;
-    height: 343px; */
 }
 
 #visit{
@@ -77,7 +64,6 @@ img {
 }
 
 .activity-img:hover{
-    /* border: white solid 3px; */
     box-shadow: 0 0 20px black;
 }
 
@@ -92,12 +78,8 @@ img {
     margin: 50px 80px;
     justify-content: center;
     align-items: center;
-    /* border-bottom: #1b4332 solid 10px; */
     border-radius: 10px;
     box-shadow: 0px 10px 0px #1b4332;
-    /* box-shadow: 0 0 10px black; */
-    /* width: 500px; */
-    /* text-align: center; */
 }
 
 #img-sajeev {
@@ -125,7 +107,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0; */
     border-radius: 10px;
     border: white solid
 }
